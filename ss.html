@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="">
+<link rel="shortcut icon" type="image/x-icon" href="./favicon.ico">
+<title>代理添加</title>
+<!-- Bootstrap core CSS -->
+<link href="../Public/css/bootstrap.css" rel="stylesheet">
+
+<!-- Add custom CSS here -->
+<link href="../Public/css/sb-admin.css" rel="stylesheet">
+<link rel="stylesheet"
+	href="../Public/font-awesome/css/font-awesome.min.css">
+<!-- Page Specific CSS -->
+<link rel="stylesheet"
+	href="../Public/font-awesome/css/morris-0.4.3.min.css">
+
+	
+	
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/spig.js"></script>
+<link rel="stylesheet" href="css/spigPet.css" type="text/css"/>
+<script type="text/javascript">
+var isindex = true;
+var visitor = true;
+</script>
+
+
+
+</head>
+
+<body>
+<!--小人只在首页显示 start*-->
+<div id="spig" class="spig">
+    <div id="message">正在加载中……</div>
+    <div id="mumu" class="mumu"></div>
+</div>
+
+	<div style="text-align: center;"></div>
+
+	<div class="mui-content">
+
+		<div style="text-align: center;">
+			<a href="main.php"> <img src="<?php echo URL_HOME;?>" width="120" />
+			</a> <br> <br> <br> <br>
+		</div>
+		<div class="col-lg-12">
+
+
+			<div class="input-group">
+				<span class="input-group-addon" for="inputSuccess">手机号</span> <input
+					type="number" class="form-control" placeholder="将用于登陆"
+					id="username" name='username' />
+			</div>
+			<br>
+
+			<div class="input-group">
+				<span class="input-group-addon" for="inputSuccess">密&nbsp;&nbsp;&nbsp;码</span>
+				<input type="password" class="form-control" placeholder="登陆密码"
+					id="pass" name='pass' />
+			</div>
+			<br>
+
+			<div class="input-group">
+				<span class="input-group-addon" for="inputSuccess">备&nbsp;&nbsp;&nbsp;注</span>
+				<input type="text" class="form-control" placeholder="备注/联系方式"
+					id="lainxi" name='qq' />
+			</div>
+			<br>
+
+			<div style="text-align: center;">
+				<button id='user_add' type="submit"
+					class="btn btn-large btn-primary">确定添加</button>
+			</div>
+
+		</div>
+
+	</div>
+
+
+
+
+	<script src="../Public/js/jquery.zclip.min.js"></script>
+
+	<script src="../mui/js/mui.min.js"></script>
+	<script src="../js/app.js"></script>
+
+
+</body>
+</html>
